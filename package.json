@@ -1,6 +1,6 @@
 {
   "name": "futoin-request",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "AsyncSteps friendly wrapper of 'request' package",
   "main": "index.js",
   "browser": "lib/browser.js",
