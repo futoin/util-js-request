@@ -13,7 +13,7 @@ Author: [Andrey Galkin](mailto:andrey@futoin.org)
 
 # About
 
-[FutoIn AsyncSteps]() friendly wrapper of [request]().
+[FutoIn AsyncSteps](https://www.npmjs.com/package/futoin-asyncsteps) friendly wrapper of [request](https://www.npmjs.com/package/request).
 
 # Installation for Node.js
 
