@@ -1,5 +1,6 @@
 'use strict';
 
+const path = require( 'path' );
 const UglifyJsPlugin = require( 'uglifyjs-webpack-plugin' );
 
 module.exports = {
@@ -24,9 +25,17 @@ module.exports = {
         process: 'mock',
         zlib: 'empty',
         crypto: 'empty',
+        path: 'empty',
     },
     module: {
         rules: [
+            {
+                test: [
+                    path.resolve( __dirname, 'node_modules/tough-cookie/lib/pubsuffix.js' ),
+                    path.resolve( __dirname, 'node_modules/uuid/v1.js' ),
+                ],
+                use: 'null-loader',
+            },
             {
                 test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,

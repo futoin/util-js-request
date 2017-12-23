@@ -32,7 +32,7 @@ $ yarn add futoin-request --save
 The module can be used with `webpack` or any other CommonJS packer. However, please
 ensure to use ES6->ES5 transpilation for older browsers.
 
-Pre-packed UMD module is available in dist/futoin-request.js (stripped ~300KB from over 1MB).
+Pre-packed UMD module is available in dist/futoin-request.js (stripped ~180KB from over 1MB).
 
 Note: please note that pre-packed dist is heavily stripped of dependencies and most features
 of request library is not expected to work due not minimal use case in browsers:

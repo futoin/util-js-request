@@ -1,3 +1,6 @@
 
+=== (next) ===
+FIXED: stripped some 150KB from dist builds (tough-cookie/pubsuffix.js)
+
 === 1.0.0 (2017-12-23) ===
 Initial version
