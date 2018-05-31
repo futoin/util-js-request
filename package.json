@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "AsyncSteps friendly wrapper of 'request' package",
   "main": "index.js",
-  "browser": "lib/browser.js",
+  "browser": "es5/lib/browser.js",
   "files": [
     "dist",
     "lib",
@@ -37,34 +37,31 @@
     "email": "support@futoin.org"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-object-assign": "^6.22.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
-    "eslint": "^4.12.1",
-    "futoin-asyncsteps": "^1.10.9",
-    "grunt": "^1.0.1",
+    "eslint": "^4.19.1",
+    "futoin-asyncsteps": "^1.11.5",
+    "grunt": "^1.0.2",
     "grunt-contrib-connect": "^1.0.2",
     "grunt-eslint": "^20.1.0",
-    "grunt-jsdoc-to-markdown": "^3.0.0",
+    "grunt-jsdoc-to-markdown": "^4.0.0",
     "grunt-mocha-istanbul": "^5.0.2",
     "grunt-mocha-phantomjs": "^4.0.0",
     "grunt-text-replace": "^0.4.0",
-    "grunt-webpack": "^3.0.2",
+    "grunt-webpack": "^3.1.2",
     "istanbul": "^0.4.5",
-    "mocha": "^4.0.1",
+    "mocha": "^5.2.0",
     "null-loader": "^0.1.1",
-    "webpack": "^3.10.0"
+    "webpack": "^4.10.2"
   },
-  "eslintIgnore": [
-    "test/**"
-  ],
   "peerDependencies": {
     "futoin-asyncsteps": "^1.10.9"
   },
   "dependencies": {
-    "request": "^2.83.0"
+    "request": "^2.87.0"
   }
 }

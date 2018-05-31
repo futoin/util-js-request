@@ -1,3 +1,5 @@
+=== (next) ===
+FIXED: browser entry point to use ES5 version
 
 === 1.0.1 (2017-12-23) ===
 FIXED: stripped some 150KB from dist builds (tough-cookie/pubsuffix.js)
