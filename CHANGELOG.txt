@@ -1,4 +1,4 @@
-=== (next) ===
+=== 1.0.2 (2018-05-31) ===
 FIXED: browser entry point to use ES5 version
 
 === 1.0.1 (2017-12-23) ===
