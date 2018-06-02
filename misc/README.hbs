@@ -6,14 +6,13 @@
 
   [![NPM](https://nodei.co/npm/futoin-request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/futoin-request/)
 
-Author: [Andrey Galkin](mailto:andrey@futoin.org)
-
-[Web Site](http://futoin.org/)
-
-
 # About
 
 [FutoIn AsyncSteps](https://www.npmjs.com/package/futoin-asyncsteps) friendly wrapper of [request](https://www.npmjs.com/package/request).
+
+**Documentation** --> [FutoIn Guide](https://futoin.org/docs/miscjs/asyncsteps-request/)
+
+Author: [Andrey Galkin](mailto:andrey@futoin.org)
 
 # Installation for Node.js
 
