@@ -1,9 +1,9 @@
 'use strict';
 
 const path = require( 'path' );
-const UglifyJsPlugin = require( 'uglifyjs-webpack-plugin' );
 
 module.exports = {
+    mode: 'production',
     entry: {
         'futoin-request': './lib/browser.js',
     },
@@ -70,9 +70,4 @@ module.exports = {
         'tunnel-agent': '{}',
         'oauth-sign': '{}',
     },
-    plugins: [
-        new UglifyJsPlugin( {
-            sourceMap: true,
-        } ),
-    ],
 };

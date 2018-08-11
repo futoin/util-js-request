@@ -1,6 +1,9 @@
 'use strict';
 
+const path = require( 'path' );
+
 module.exports = {
+    mode: 'development',
     entry: {
         unittest : './test/unittest.js',
     },
@@ -11,6 +14,13 @@ module.exports = {
     node : false,
     module: {
         rules: [
+            // Something has changed in Webpack, to be investigated
+            {
+                test: [
+                    path.resolve( __dirname, 'index.js' ),
+                ],
+                use: 'null-loader',
+            },
             {
                 test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,
