@@ -3,7 +3,7 @@
 const isNode = ( typeof window === "undefined" );
 const $as = isNode ? module.require( 'futoin-asyncsteps' ) : window.$as;
 const $as_request = isNode ? module.require( '../index' ) : window.FutoIn.request;
-const expect = isNode ? module.require( 'chai' ).expect : window.chai.expect;
+const { expect } = require( 'chai' );
 
 describe( '$as_request', function() {
     it ( 'should make requests', function( done ) {

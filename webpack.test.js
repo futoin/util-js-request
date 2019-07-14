@@ -27,8 +27,8 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        presets: [ 'babel-preset-env' ],
-                        plugins: [ "transform-object-assign" ],
+                        presets: [ '@babel/preset-env' ],
+                        plugins: [ "@babel/transform-object-assign" ],
                     },
                 },
             },
@@ -46,18 +46,6 @@ module.exports = {
             amd: "futoin-request",
             commonjs: "futoin-request",
             commonjs2: "futoin-request",
-        },
-        chai : {
-            root: "chai",
-            amd: "chai",
-            commonjs: "chai",
-            commonjs2: "chai",
-        },
-        mocha : {
-            root: "mocha",
-            amd: "mocha",
-            commonjs: "mocha",
-            commonjs2: "mocha",
         },
     },
 };

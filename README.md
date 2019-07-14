@@ -112,7 +112,7 @@ Additional notes:
 **Kind**: global variable  
 <a name="$as_request"></a>
 
-## $as_request
+## $as\_request
 **window.$as_request** - browser-only reference to futoin-request module
 
 **Kind**: global variable  
