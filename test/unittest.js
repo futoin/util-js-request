@@ -40,7 +40,7 @@ describe( '$as_request', function() {
                 console.log( `${err}:${as.state.error_info}` );
                 console.log( as.state.last_response );
                 done( as.state.last_exception || 'fail' );
-            }
+            },
         );
         as.add( ( as ) => done() );
         as.execute();
@@ -62,7 +62,7 @@ describe( '$as_request', function() {
                     console.log( `${err}:${as.state.error_info}` );
                     done( as.state.last_exception || 'fail' );
                 }
-            }
+            },
         );
         as.add( ( as ) => done( 'Fail' ) );
         as.execute();
@@ -85,7 +85,7 @@ describe( '$as_request', function() {
                     console.log( `${err}:${as.state.error_info}` );
                     done( as.state.last_exception || 'fail' );
                 }
-            }
+            },
         );
         as.add( ( as ) => done( 'Fail' ) );
         as.execute();
@@ -109,7 +109,7 @@ describe( '$as_request', function() {
                     console.log( `${err}:${as.state.error_info}` );
                     done( as.state.last_exception || 'fail' );
                 }
-            }
+            },
         );
         as.add( ( as ) => done( 'Fail' ) );
         as.execute();
